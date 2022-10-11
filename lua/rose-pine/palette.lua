@@ -1,5 +1,6 @@
 local variants = {
 	main = {
+		--base = '#21202e',
 		base = '#191724',
 		surface = '#1f1d2e',
 		overlay = '#26233a',
@@ -7,14 +8,19 @@ local variants = {
 		subtle = '#908caa',
 		text = '#e0def4',
 		love = '#eb6f92',
-		gold = '#f6c177',
+        --gold = '#f6c177',
+		--gold = '#854a07',
+        gold = '#42be65',
+        --gold = '#d7827e',
 		rose = '#ebbcba',
 		pine = '#31748f',
 		foam = '#9ccfd8',
 		iris = '#c4a7e7',
+		--highlight_low = '#191724',
 		highlight_low = '#21202e',
 		highlight_med = '#403d52',
 		highlight_high = '#524f67',
+		opacity = 0.1,
 		none = 'NONE',
 	},
 	moon = {
@@ -33,6 +39,7 @@ local variants = {
 		highlight_low = '#2a283e',
 		highlight_med = '#44415a',
 		highlight_high = '#56526e',
+		opacity = 0.1,
 		none = 'NONE',
 	},
 	dawn = {
@@ -51,6 +58,7 @@ local variants = {
 		highlight_low = '#f4ede8',
 		highlight_med = '#dfdad9',
 		highlight_high = '#cecacd',
+		opacity = 0.05,
 		none = 'NONE',
 	},
 }
